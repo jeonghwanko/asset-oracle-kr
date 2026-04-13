@@ -1,0 +1,65 @@
+name: Daily Collect
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # UTC 00:00 = KST 09:00
+  workflow_dispatch:  # 수동 실행 가능
+
+permissions:
+  contents: write
+
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Collect real estate trades
+        env:
+          MOLIT_API_KEY: ${{ secrets.MOLIT_API_KEY }}
+        run: python collectors/molit_trades.py
+
+      - name: Collect news
+        run: python collectors/news_crawler.py
+
+      - name: Detect signals
+        run: python analysis/signal_detector.py
+
+      - name: Commit data
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "data: daily collection"
+          file_pattern: "data/**/*.json"
+
+  # 매주 금요일만 뉴스레터 초안 생성
+  draft:
+    runs-on: ubuntu-latest
+    needs: collect
+    if: github.event.schedule == '0 0 * * 5' || github.event_name == 'workflow_dispatch'
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate newsletter draft
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python analysis/ai_summarizer.py
+
+      - name: Commit draft
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "draft: weekly newsletter"
+          file_pattern: "drafts/**/*.md"
