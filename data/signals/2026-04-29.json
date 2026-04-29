@@ -1,0 +1,20 @@
+{
+  "date": "2026-04-29",
+  "detected_at": "2026-04-29T03:47:20.567638",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "중금리대출 31.9조 확대·최대 5.2%p 금리 인하 - 영남경제",
+          "반도체 붐에 호경기·위험한 환율...금리 인상설 ‘모락모락’ - 우먼타임스"
+        ]
+      }
+    }
+  ]
+}
