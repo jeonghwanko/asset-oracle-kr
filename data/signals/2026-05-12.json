@@ -1,0 +1,20 @@
+{
+  "date": "2026-05-12",
+  "detected_at": "2026-05-12T03:51:24.360511",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "가격과 금리 인상 압력으로 인해 부동산 거래량이 감소했습니다. - Vietnam.vn",
+          "기준금리란 무엇인가: 금리 한 번의 결정이 물가·환율·주식·부동산·소비를 움직이는 이유 - 네이버 프리미엄콘텐츠"
+        ]
+      }
+    }
+  ]
+}
