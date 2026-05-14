@@ -1,0 +1,21 @@
+{
+  "date": "2026-05-14",
+  "detected_at": "2026-05-14T03:58:51.616033",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "medium",
+      "message": "'금리' 관련 뉴스 4건 집중",
+      "data": {
+        "category": "금리",
+        "count": 4,
+        "sample_titles": [
+          "[아파트 PF 인사이드] 의정부 롯데캐슬, '완판 임박' 금리 인하 - 블로터",
+          "가격과 금리 인상 압력으로 인해 부동산 거래량이 감소했습니다. - Vietnam.vn",
+          "기준금리 연속 인상 불구 아파트 판매 강세 - 호주 톱뉴스"
+        ]
+      }
+    }
+  ]
+}
