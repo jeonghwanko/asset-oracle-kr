@@ -1,0 +1,185 @@
+{
+  "deal_ym": "202606",
+  "collected_at": "2026-07-01T01:14:20.211912",
+  "regions": {
+    "서울 종로구": {
+      "code": "11110",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 중구": {
+      "code": "11140",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 용산구": {
+      "code": "11170",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 성동구": {
+      "code": "11200",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 광진구": {
+      "code": "11215",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 동대문구": {
+      "code": "11230",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 중랑구": {
+      "code": "11260",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 성북구": {
+      "code": "11290",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 강북구": {
+      "code": "11305",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 도봉구": {
+      "code": "11320",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 노원구": {
+      "code": "11350",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 은평구": {
+      "code": "11380",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 서대문구": {
+      "code": "11410",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 마포구": {
+      "code": "11440",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 양천구": {
+      "code": "11470",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 강서구": {
+      "code": "11500",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 구로구": {
+      "code": "11530",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 금천구": {
+      "code": "11545",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 영등포구": {
+      "code": "11560",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 동작구": {
+      "code": "11590",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 관악구": {
+      "code": "11620",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 서초구": {
+      "code": "11650",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 강남구": {
+      "code": "11680",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 송파구": {
+      "code": "11710",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    },
+    "서울 강동구": {
+      "code": "11740",
+      "count": 0,
+      "avg_price_man": 0,
+      "max_price_man": 0,
+      "min_price_man": 0
+    }
+  },
+  "summary": {
+    "total_trades": 0,
+    "avg_price_man": 0
+  }
+}
