@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-03",
+  "detected_at": "2026-07-03T03:55:14.201532",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "금융권 '부실 우려' 해외 부동산 2조원대…\"금리 인상 불확실성\" - 머니투데이 - 머니투데이",
+          "금리 인하 및 대출 조건 완화 – 은행과 부동산 업계에 이익이 됩니다. - Vietnam.vn"
+        ]
+      }
+    }
+  ]
+}
