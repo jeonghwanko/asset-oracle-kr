@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-16",
+  "detected_at": "2026-07-16T00:47:44.695911",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "대출 조이기+금리 인상 '더블 펀치'…부동산 시장 냉각 본격화하나 - 베타뉴스",
+          "건설 침체 길어지자 금융권도 '긴장'…PF 부실에 금리 인상 부담 - v.daum.net"
+        ]
+      }
+    }
+  ]
+}
