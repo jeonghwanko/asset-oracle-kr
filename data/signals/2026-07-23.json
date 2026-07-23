@@ -1,0 +1,20 @@
+{
+  "date": "2026-07-23",
+  "detected_at": "2026-07-23T00:48:46.301735",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "5%대 금리 인상 본격화···하반기 부동산시장 변수는? - 이뉴스투데이",
+          "[기획] 기준금리 기조 전환 뚜렷…부동산시장 과열 진정될까 - 매일일보"
+        ]
+      }
+    }
+  ]
+}
