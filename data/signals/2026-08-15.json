@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-15",
+  "detected_at": "2026-08-15T01:40:00.120380",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "\"기준금리 인하해야\" 42%·\"부동산 정책 잘못\" 56%[NBS] - 연합인포맥스",
+          "\"기준금리 인하해야\" 42%·\"부동산 정책 잘못\" 56%[NBS] - 연합인포맥스"
+        ]
+      }
+    }
+  ]
+}
