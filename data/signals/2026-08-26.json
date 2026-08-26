@@ -1,0 +1,20 @@
+{
+  "date": "2026-08-26",
+  "detected_at": "2026-08-26T01:44:25.195540",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "금리 인상 사이클 속 서울 부동산 양극화…외곽 '빚투'는 늘고 강남은 주춤 - 베타뉴스",
+          "한은 '금리 인상 기조'...다가온 부동산 대토론회·세제 개편 - YTN"
+        ]
+      }
+    }
+  ]
+}
