@@ -1,0 +1,21 @@
+{
+  "date": "2026-08-27",
+  "detected_at": "2026-08-27T08:47:34.680066",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "medium",
+      "message": "'금리' 관련 뉴스 12건 집중",
+      "data": {
+        "category": "금리",
+        "count": 12,
+        "sample_titles": [
+          "한은, 두 달 연속 기준금리 인상…부동산 시장 관망세 짙어지나 By The Guru - Investing.com",
+          "한은, 두 달 연속 기준금리 인상…부동산 시장 관망세 짙어지나 By The Guru - Investing.com",
+          "\"집 언제 사지\" 타이밍 보는 3040...'기준금리 3% 시대' 부동산 전망은 - 머니투데이 - 머니투데이"
+        ]
+      }
+    }
+  ]
+}
