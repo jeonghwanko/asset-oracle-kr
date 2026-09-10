@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-10",
+  "detected_at": "2026-09-10T04:11:35.985790",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "대출 금리 인하에 피해 예방까지 - 굿뉴스365",
+          "대전시, 부동산 전자계약 스티커 배부…“사기 예방에 금리 인하까지” - 뉴스파고"
+        ]
+      }
+    }
+  ]
+}
