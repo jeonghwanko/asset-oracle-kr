@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-16",
+  "detected_at": "2026-09-16T04:26:57.538955",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "부동산 전문가들 \"금리 인상에 15억 이하 집값 상승세 둔화할 것\" - 연합인포맥스",
+          "주택담보대출 금리 인하: 부동산 시장에 활력을 불어넣을까? - Vietnam.vn"
+        ]
+      }
+    }
+  ]
+}
