@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-24",
+  "detected_at": "2026-09-24T04:18:32.503809",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "[김용남의 글로벌 부동산] 일본 기준금리 1.25%… 중소형빌딩 얼마에 사야 하나? - newspim.com",
+          "부동산 대책·금리 인상에도…“1년 뒤 집값 상승” 기대 여전 - 시사저널"
+        ]
+      }
+    }
+  ]
+}
