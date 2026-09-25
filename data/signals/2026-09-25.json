@@ -1,0 +1,20 @@
+{
+  "date": "2026-09-25",
+  "detected_at": "2026-09-25T04:29:56.167289",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'재건축/재개발' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "재건축/재개발",
+        "count": 2,
+        "sample_titles": [
+          "서울 20년 초과 아파트 매매가 상승폭 신축 압도…재건축 강세 - v.daum.net",
+          "서울 아파트는 신축보다 재건축…20년 초과, 매매가 상승폭 압도 - 연합뉴스"
+        ]
+      }
+    }
+  ]
+}
