@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-04",
+  "detected_at": "2026-10-04T05:25:40.250758",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "대출 금리 인상: 부동산 업계, 압박 완화 방안 모색 중. - Vietnam.vn",
+          "기준금리 3%·주담대 4.66%인데 서울 집값은 1.05% 상승…엇갈린 부동산 지표 - 뉴스N연합"
+        ]
+      }
+    }
+  ]
+}
