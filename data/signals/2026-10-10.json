@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-10",
+  "detected_at": "2026-10-10T05:25:04.958339",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "서울 아파트값 고점 찍었나?…금리 인상·공급량 ‘최대 변수’ - 한겨레",
+          "금리 인상에 상업용 부동산 매수자, 가격 인하 요구 - Investing.com 한국어"
+        ]
+      }
+    }
+  ]
+}
