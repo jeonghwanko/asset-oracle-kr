@@ -1,0 +1,20 @@
+{
+  "date": "2026-10-20",
+  "detected_at": "2026-10-20T04:25:25.619808",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "low",
+      "message": "'금리' 관련 뉴스 2건 집중",
+      "data": {
+        "category": "금리",
+        "count": 2,
+        "sample_titles": [
+          "베트남 중앙銀 총재 “신규 외 기존 대출도 금리 인하해야”…금리 조정 거듭 촉구 - 인사이드비나",
+          "금리 인하에 따른 부동산 시장의 반응은 어떨까요? - Vietnam.vn"
+        ]
+      }
+    }
+  ]
+}
