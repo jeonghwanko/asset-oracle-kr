@@ -1,0 +1,21 @@
+{
+  "date": "2026-10-31",
+  "detected_at": "2026-10-31T05:03:46.348398",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "medium",
+      "message": "'금리' 관련 뉴스 3건 집중",
+      "data": {
+        "category": "금리",
+        "count": 3,
+        "sample_titles": [
+          "금리 인하가 부동산 시장의 어려움을 완화할까요? - Vietnam.vn",
+          "한은, 예상대로 기준금리 3% 동결…부동산 시장 관망세 이어지나 - 더구루",
+          "한은, 기준금리 동결… 경남 부동산시장 회복은 ‘글쎄’ - 경남신문"
+        ]
+      }
+    }
+  ]
+}
