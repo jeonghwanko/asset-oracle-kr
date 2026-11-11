@@ -1,0 +1,21 @@
+{
+  "date": "2026-11-11",
+  "detected_at": "2026-11-11T00:29:59.548473",
+  "signal_count": 1,
+  "signals": [
+    {
+      "type": "news_cluster",
+      "severity": "medium",
+      "message": "'금리' 관련 뉴스 4건 집중",
+      "data": {
+        "category": "금리",
+        "count": 4,
+        "sample_titles": [
+          "중동발 금리 인상, 리츠들은 이렇게 버틴다 - 네이버페이 머니스토리",
+          "주담대 금리 인상 우려 탓 11월 수도권 아파트 입주 ‘흐림’ - 기호일보",
+          "수도권 아파트 입주전망지수 ‘뚝’…금리 인상 우려에 심리 급격히 후퇴 - https://www.ppss.kr/"
+        ]
+      }
+    }
+  ]
+}
